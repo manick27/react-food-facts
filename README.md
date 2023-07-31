@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+---------------------------------Lancement du projet-------------------------------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Exécuter les commandes suivantes:
 
-## Available Scripts
+- npm install
 
-In the project directory, you can run:
+- npm start
 
-### `npm start`
+******************************************************************************************************
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-----------------------------------------Fonctionnement-----------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Entrer une chaine de caractère dans le champ, puis cliquer sur Rechercher.
 
-### `npm test`
+- Une liste de produits correspondant à votre chaine entrée sera afficher ou Aucun résultat s'il y'a pas eu résultat.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Vous pouvez parcourir les différents produits affichées et taper sur l'un d'eux pour voir le détails du produit sélectionné.
 
-### `npm run build`
+******************************************************************************************************
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tâches réalisées:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Developpement d'une vue pour l'accueil permettant d'effectuer les recherches sur les produits et afficher le résultat.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Developpement d'une autre vue pour afficher le détails d'un produit sélectionné.
 
-### `npm run eject`
+******************************************************************************************************
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-----------------------------------Réalisation du projet--------------------------------------
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation de tailwind css pour le style en suivante la documentation répondant au lien: https://tailwindcss.com/docs/guides/create-react-app
+Avantage de tailwind css: rapide lors du chargement de la page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Dépendences installées:
+- axios
+- react-router-dom
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+avec la commande: npm install axios react-router-dom
